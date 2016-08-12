@@ -373,6 +373,9 @@ a {
 .mauticform-row {
     width: 420px;
     margin: 0 auto;
+    clear: both;
+    margin-top: 20px;
+    margin-bottom: 0px;
 }
 
 .mauticform-label {
@@ -389,9 +392,14 @@ input[type=checkbox] {
     transform: scale(2);
 }
 
+.mauticform-checkboxgrp-label {
+    font-size: 22px;
+    margin-bottom: 0px;
+}
+
 .mauticform-checkboxgrp-row {
     margin-left: 5px;
-    width: 200px;
+    width: 190px;
     float: left;
 }
 
@@ -407,4 +415,8 @@ input[type=radio] {
 
 input[type=radio]:checked {
     background-color: #17B1F7;
+}
+
+.mauticform-row button:hover {
+    color: #d9deda;
 }
