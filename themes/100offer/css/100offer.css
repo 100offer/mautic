@@ -420,3 +420,12 @@ input[type=radio]:checked {
 .mauticform-row button:hover {
     color: #d9deda;
 }
+
+.mauticform-message {
+    float: left;
+    width: 100%;
+    text-align: center;
+    margin-bottom: -15px !important;
+    margin-top: -30px !important;
+    font-size: 30px;
+}
