@@ -1,7 +1,7 @@
 <?php
 $view->extend(":$template:base.html.php");
 ?>
-<div style="background-color: #f8f8f8; font-family: 'PingFang SC', 'Hiragino Sans GB', arial, 'microsoft yahei', sans-serif; font-size: 14px; min-width: 850px;">
+<div style="padding: 50px 0;background-color: #f8f8f8; font-family: 'PingFang SC', 'Hiragino Sans GB', arial, 'microsoft yahei', sans-serif; font-size: 14px; min-width: 850px;">
     <div style="background-color: #FFFFFF; margin: 75px auto 40px; width: 700px; min-width: 700px; height: 100%; box-shadow: 0 4px 14px 5px rgba(166, 166, 177, 0.07);">
         <div style="padding-top: 33px; padding-left: 90px;">
             <img src="https://snow-assets.b0.upaiyun.com/assets/logo-white-2d190d988f772604c8e00fb85c632933.png" width=105 height=20 alt="cw-logo">
