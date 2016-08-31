@@ -1,6 +1,6 @@
 .cw-container {
     background-color: #f8f8f8;
-    font-family: 'Helvetica Neue', 'PingFang SC', 'Hiragino Sans GB', arial, 'microsoft yahei', sans-serif;
+    font-family: 'PingFang SC', 'Hiragino Sans GB', arial, 'microsoft yahei', sans-serif;
     font-size: 14px;
     min-width: 850px;
 }
@@ -89,7 +89,7 @@
 }
 
 .cw-info p {
-    line-height: 18px;
+    line-height: 24px;
     margin-bottom: 12px;
 }
 
@@ -164,7 +164,7 @@
         line-height: 40px;
     }
     .cw-info p {
-        line-height: 28px;
+        line-height: 40px;
     }
     .cw-footer .cw-footer-unsubscribe {
         line-height: 30px;
