@@ -7,7 +7,6 @@
         <?php endif; ?>
         <meta name="viewport" content="width=device-width">
         <script src="https://mautic.b0.upaiyun.com/assets/js/jquery-2.0.3.min.js" ></script>
-        <link rel="stylesheet" href="<?php echo $view['assets']->geturl('themes/lina_inverse/css/lina_inverse.css'); ?>" type="text/css" />
         <link rel="stylesheet" href="https://mautic.b0.upaiyun.com/assets/css/normalize.min.css" type="text/css">
         <?php $view['assets']->outputHeadDeclarations(); ?>
         <script>
