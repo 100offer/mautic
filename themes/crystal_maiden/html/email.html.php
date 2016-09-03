@@ -27,10 +27,8 @@ $view->extend(":$template:base.html.php");
               </td>
             </tr>
             <tr>
-              <td>
-                <div style="margin-top: 40px;height: 211px;">
-                  <img src="https://mautic.b0.upaiyun.com/themes/crystal_maiden/crystal_maiden_banner.png" style="height: 211px;width: 700px; max-width: 700px; min-width: 700px;" alt="cw-banner">
-                </div>
+              <td style="margin-top: 40px;height: 211px;">
+                <img src="https://mautic.b0.upaiyun.com/themes/crystal_maiden/crystal_maiden_banner.png" width="700px" height="211px" style="min-width: 700px;min-height: 211px;" alt="cw-banner">
               </td>
             </tr>
             <tr>
