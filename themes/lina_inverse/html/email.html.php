@@ -2,7 +2,7 @@
 $view->extend(":$template:base.html.php");
 ?>
 <div style="font-weight:300;padding: 50px 0;background-color: #f8f8f8; font-family: 'PingFang SC', 'Hiragino Sans GB', arial, 'microsoft yahei', sans-serif; font-size: 14px; min-width: 850px !important;width: 100% !important;margin:0 auto;">
-    <table style="background-color: #FFFFFF; margin: 75px auto 40px; width: 700px !important; min-width: 700px !important; height: 100%; box-shadow: 0 4px 14px 5px rgba(166, 166, 177, 0.07);">
+    <table style="background-color: #FFFFFF; margin: 0 auto; margin-top: 75px; margin-bottom: 40px; width: 700px !important; min-width: 700px !important; height: 100%; box-shadow: 0 4px 14px 5px rgba(166, 166, 177, 0.07);">
         <tr>
           <td>
             <div style="padding-top: 33px; padding-left: 90px; line-height: 40px;height: 40px;">
