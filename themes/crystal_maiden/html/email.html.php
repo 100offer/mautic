@@ -1,19 +1,19 @@
 <?php
 $view->extend(":$template:base.html.php");
 ?>
-<div style="font-weight: 300;padding: 50px 0;background-color: #f8f8f8; font-family: 'PingFang SC', 'Hiragino Sans GB', arial, 'microsoft yahei', sans-serif; font-size: 14px; min-width: 850px !important;width: 100% !important;margin:0 auto;">
-    <table style="background-color: #FFFFFF; margin: 0 auto; margin-top: 75px; margin-bottom: 40px; width: 700px !important; min-width: 700px !important;height: 100%; box-shadow: 0 4px 14px 5px rgba(166, 166, 177, 0.07);">
+<div style="border: 1px solid red !important;font-weight: 300;padding: 50px 0;background-color: #f8f8f8; font-family: 'PingFang SC', 'Hiragino Sans GB', arial, 'microsoft yahei', sans-serif; font-size: 14px; min-width: 850px !important;width: 100% !important;margin:0 auto;">
+    <table style="border: 1px solid red !important;background-color: #FFFFFF; margin: 0 auto; margin-top: 75px; margin-bottom: 40px; width: 700px !important; min-width: 700px !important;height: 100%; box-shadow: 0 4px 14px 5px rgba(166, 166, 177, 0.07);">
       <tbody>
         <tr>
           <td>
-            <div style="padding-top: 33px; padding-left: 90px;line-height: 40px;height: 40px;">
+            <div style="border: 1px solid red !important;padding-top: 33px; padding-left: 90px;line-height: 40px;height: 40px;">
               <img src="https://snow-assets.b0.upaiyun.com/assets/logo-white-2d190d988f772604c8e00fb85c632933.png" style="width: 105px; height: 20px; vertical-align: middle;"  alt="cw-logo">
             </div>
           </td>
         </tr>
         <tr >
           <td>
-            <div style="margin: 30px auto;">
+            <div style="border: 1px solid red !important;margin: 30px auto;">
               <div style="margin: 0 auto; height: 40px; line-height: 40px; vertical-align: middle; font-size: 20px; text-align: center; color: #17B1F7;">
                    <?php $view['slots']->output('slogan1'); ?>
               </div>
@@ -32,28 +32,28 @@ $view->extend(":$template:base.html.php");
         </tr>
         <tr>
           <td>
-            <div style="color: #666666;line-height: 24px;margin: 58px 90px 40px;">
+            <div style="border: 1px solid red !important;color: #666666;line-height: 24px;margin: 58px 90px 40px;">
               <?php $view['slots']->output('body'); ?>
             </div>
           </td>
         </tr>
         <tr>
           <td>
-            <div style="background-color: #17B1F7; margin: 0 auto; width: 246px; line-height: 40px;height: 40px; margin-bottom: 40px; border-radius: 2px;">
+            <div style="border: 1px solid red !important;background-color: #17B1F7; margin: 0 auto; width: 246px; line-height: 40px;height: 40px; margin-bottom: 40px; border-radius: 2px;">
               <?php $view['slots']->output('special-btn'); ?>
             </div>
           </td>
         </tr>
         <tr>
             <td>
-              <div style="margin: 0 90px;color: #666666;line-height: 24px;">
+              <div style="border: 1px solid red !important;margin: 0 90px;color: #666666;line-height: 24px;">
                 <?php $view['slots']->output('info'); ?>
               </div>
             </td>
         </tr>
         <tr>
           <td>
-            <div style="margin: 84px 90px 43px;">
+            <div style="border: 1px solid red !important;margin: 84px 90px 43px;">
               <div style="font-size: 24px; color: #333333; margin-bottom: 14px; height: 28px;">
                   <?php $view['slots']->output('username'); ?>
               </div>
@@ -68,7 +68,7 @@ $view->extend(":$template:base.html.php");
         </tr>
       </tbody>
     </table>
-    <div style="margin: 0 auto 33px; min-width: 700px; text-align: center;">
+    <div style="border: 1px solid red !important;margin: 0 auto 33px; min-width: 700px; text-align: center;">
         <div style="font-size: 24px; color: #333333; line-height: 40px; margin-bottom: 13px;">
             <?php $view['slots']->output('footer-slogan'); ?>
         </div>
