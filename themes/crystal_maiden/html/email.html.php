@@ -5,7 +5,7 @@ $view->extend(":$template:base.html.php");
     <table style="background-color: #FFFFFF; margin: 75px auto 40px; width: 700px; min-width: 700px; height: 100%; box-shadow: 0 4px 14px 5px rgba(166, 166, 177, 0.07);">
         <tr>
           <td>
-            <div style="padding-top: 33px; padding-left: 90px;">
+            <div style="padding-top: 33px; padding-left: 90px;line-height: 40px;height: 40px;">
               <img src="https://snow-assets.b0.upaiyun.com/assets/logo-white-2d190d988f772604c8e00fb85c632933.png" width=105 height=20 alt="cw-logo">
             </div>
           </td>
