@@ -11,8 +11,8 @@ $view->extend(":$template:base.html.php");
                 <div style="padding-top: 33px; padding-left: 90px; line-height: 40px;height: 40px;">
                   <img src="https://snow-assets.b0.upaiyun.com/assets/logo-white-2d190d988f772604c8e00fb85c632933.png" style="width: 105px; height: 20px; vertical-align: middle;" alt="lina-logo">
                   <span style="border-right: 1px solid #DCDCDC; margin: 0 19px;"></span>
-                  <span style="vertical-align: middle; font-size: 16px; font-color: #666666;">
-                      帮最好的程序员发现更好的offer
+                  <span style="vertical-align: middle; font-size: 16px; color: #666666;display:inline-block;">
+                      <?php $view['slots']->output('slogan'); ?>
                   </span>
                 </div>
               </td>
@@ -65,8 +65,12 @@ $view->extend(":$template:base.html.php");
             </tr>
         </table>
         <div style="margin: 0 auto 33px; min-width: 700px; text-align: center;">
-            <div style="line-height: 17px; color: #A6A6A6;">此邮件由100offer发送 </div>
-            <div style="line-height: 17px; color: #A6A6A6;"><a style="color: #A6A6A6; text-decoration: underline;" href="{unsubscribe_url}">取消推送邮件订阅？</a></div>
+            <div style="line-height: 17px; color: #A6A6A6;">
+              <?php $view['slots']->output('sender'); ?>
+            </div>
+            <div style="line-height: 17px; color: #A6A6A6;">
+              <?php $view['slots']->output('unsubscribe'); ?>
+            </div>
         </div>
       </td>
     </tr>

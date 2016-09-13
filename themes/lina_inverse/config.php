@@ -7,13 +7,16 @@ $config = array(
     ),
     "slots"       => array(
         "email" => array(
+            "slogan",
             "body",
             "special-btn",
             "info",
             "username",
             "title",
             "site",
-            "footer-slogan"
+            "footer-slogan",
+            "sender",
+            "unsubscribe"
         )
     )
 );

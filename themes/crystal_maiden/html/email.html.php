@@ -73,8 +73,12 @@ $view->extend(":$template:base.html.php");
             <div style="font-size: 24px; color: #333333; line-height: 40px; margin-bottom: 13px;">
                 <?php $view['slots']->output('footer-slogan'); ?>
             </div>
-            <div style="line-height: 17px;color: #A6A6A6;">此邮件由100offer发送 </div>
-            <div style="line-height: 17px;color: #A6A6A6;"><a style="color: #A6A6A6;text-decoration: underline;" href="{unsubscribe_url}">取消推送邮件订阅？</a></div>
+            <div style="line-height: 17px;color: #A6A6A6;">
+              <?php $view['slots']->output('sender'); ?>
+            </div>
+            <div style="line-height: 17px;color: #A6A6A6;">
+              <?php $view['slots']->output('unsubscribe'); ?>
+            </div>
         </div>
       </td>
     </tr>

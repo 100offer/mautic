@@ -15,7 +15,9 @@ $config = array(
             "username",
             "title",
             "site",
-            "footer-slogan"
+            "footer-slogan",
+            "sender",
+            "unsubscribe"
         )
     )
 );
