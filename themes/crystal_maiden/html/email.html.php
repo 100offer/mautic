@@ -39,8 +39,8 @@ $view->extend(":$template:base.html.php");
               </td>
             </tr>
             <tr>
-              <td>
-                <div style="background-color: #17B1F7; position: relative; left: 50%; transform: translateX(-50%);line-height: 40px;margin-bottom: 40px; border-radius: 2px;padding: 0 30px;display:inline-block; max-width: calc(100% - 180px);">
+              <td style="text-align: center;">
+                <div style="background-color: #17B1F7; line-height: 40px;margin-bottom: 40px; border-radius: 2px;padding: 0 30px;display:inline-block; max-width: calc(100% - 180px);">
                   <?php $view['slots']->output('special-btn'); ?>
                 </div>
               </td>
